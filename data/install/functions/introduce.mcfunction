@@ -1,0 +1,7 @@
+# 数据包介绍
+tellraw @a [{"text":"---------------追猎游戏·介绍---------------"}]
+tellraw @a [{"text":"本数据包魔改","color":"white","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"AloneYQ(爱吃蛋白的烟青)","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"的数据包","color":"white","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+tellraw @a [{"text":"原数据包传送门：","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"点击查看","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"open_url","value":"https://www.mcbbs.net/thread-1333878-1-1.html"}}]
+tellraw @a [{"text":"数据包版本：","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"特供版v1.0","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+tellraw @a [{"text":"数据包出品：","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"蛋白后宫","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"open_url","value":"https://dbhg.top/"}}]
+tellraw @a [{"text":"-------------------------------------------"}]

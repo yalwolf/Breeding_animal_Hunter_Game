@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "title": "盾牌！防偷防盗防老六！",
+        "description": "获得第一个盾牌",
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "criteria": {
+        "getcake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:shield"
+                    }
+                ]
+            }
+        }
+    }
+}

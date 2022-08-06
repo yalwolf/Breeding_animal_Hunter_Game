@@ -1,0 +1,1 @@
+tellraw @s [{"text":"\n[返回]","color":"aqua","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function breed:main_goback"}}]

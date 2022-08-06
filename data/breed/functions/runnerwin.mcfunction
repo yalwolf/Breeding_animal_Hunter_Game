@@ -1,0 +1,5 @@
+title @a times 30 30 30
+title @a title [{"text":"恭喜逃脱者","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"selector":"@a[team=runner]","color":"aqua","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"获得胜利！","color":"yellow","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+title @a subtitle [{"text":"猎人们","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false},{"text":"可要好好加油了呀！","color":"blue","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+title @a actionbar [{"text":"感谢游玩！  ——蛋白后宫","bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}]
+function breed:end

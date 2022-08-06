@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AAA",
+        "A A",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:dragon_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_portal_frame",
+        "count": 3
+    }
+}

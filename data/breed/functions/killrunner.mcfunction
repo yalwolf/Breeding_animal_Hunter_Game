@@ -1,0 +1,1 @@
+scoreboard players add @a[tag=join_player] killrunner_1 1

@@ -1,0 +1,3 @@
+tellraw @s [{"text":"-----------------------------------------------------------------","color":"gray","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+tellraw @s [{"text":"功能性更新:\n游戏结束后不再杀死所有人\n已支持设置猎人被禁锢时间(目前共有5个档位可选)\n增加了新配方\n    钻石块*9=龙蛋\n    龙蛋*4=鞘翅(摆放类似工作台)\n    龙蛋*8=末地传送门框架*3(摆放类似熔炉)\n增加了彩蛋\"*******\"\n    description:做一个糕蛋试试?\n\n平衡性调整:    \n增加剑的抢夺III属性\n移除鞘翅耐久\n弓力量59->65\n开局干草块获得时间 150s->120s(现在猎人与逃脱者分开计时了)\n增加猎人禁锢效果-挖掘疲劳I\n下界合金镐时运69->时运14(为了平衡龙蛋获取)\n\n繁殖掉落物调整:\n火箭掉落数24~48->24~36\n跳跃提升药水回归(可充当火箭使用)\n新增繁殖掉落物:龙蛋\n新增繁殖掉落物:马铃薯\n新增繁殖掉落物:胡萝卜\n新增繁殖掉落物:金胡萝卜(可繁殖马和兔)\n\nps:本次更新用时8h 调整新增配方数值就用了好久 怕破坏游戏平衡","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]
+function breed:goback

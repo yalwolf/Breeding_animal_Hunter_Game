@@ -1,0 +1,1 @@
+tellraw @a[team=runner] [{"text":"猎人已开始行动！","color":"red","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}]

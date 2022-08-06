@@ -1,0 +1,1 @@
+give @s minecraft:firework_rocket 32

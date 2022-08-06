@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wheat"
+        },
+        "title": "繁殖动物",
+        "description": "最伟大的事业！",
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "criteria": {
+        "breedanimals": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {}
+        }
+    },
+    "requirements": [
+        [
+          "breedanimals"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "breed:breeda"
+        ],
+        "function": "breed:deladvancement"
+    }
+}

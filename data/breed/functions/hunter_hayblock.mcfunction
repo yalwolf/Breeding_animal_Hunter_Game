@@ -1,0 +1,1 @@
+advancement grant @a[team=hunter] only breed:hayblock/root

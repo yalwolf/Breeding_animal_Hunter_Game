@@ -1,0 +1,41 @@
+gamerule doImmediateRespawn true
+gamemode spectator @a
+weather clear
+effect clear @a
+
+team empty hunter
+team empty runner
+team remove runner
+team remove hunter
+tag @a remove hunter
+tag @a remove runner
+clear @a
+tag @a remove join_player
+
+scoreboard objectives remove playerhp
+scoreboard objectives remove waittime
+
+scoreboard objectives remove killrunner
+scoreboard objectives remove killrunner_1
+scoreboard objectives remove setrunner
+scoreboard objectives remove sethunter
+scoreboard objectives remove setbystander
+scoreboard objectives remove setplayer_z
+scoreboard objectives remove setplayer_no
+scoreboard objectives remove set_bystander
+scoreboard objectives remove hunter_player
+scoreboard objectives remove runner_player
+scoreboard objectives remove bystander_player
+scoreboard objectives remove hunter_player_qt
+scoreboard objectives remove runner_player_qt
+scoreboard objectives remove hunter_player_hl
+scoreboard objectives remove runner_player_hl
+
+schedule clear breed:runner_hayblock
+schedule clear breed:hunter_hayblock
+schedule clear breed:startwarning
+
+advancement revoke @a everything
+
+gamerule doImmediateRespawn false
+difficulty peaceful

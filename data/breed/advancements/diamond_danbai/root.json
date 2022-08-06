@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "title": "钻石？\"有什么用么\"？",
+        "description": "获得第一个钻石",
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "criteria": {
+        "getcake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "breed:rewards/giveeffect_1"
+    }
+}

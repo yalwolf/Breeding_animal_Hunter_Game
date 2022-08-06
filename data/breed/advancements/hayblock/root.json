@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hay_block"
+        },
+        "title": "___的馈赠",
+        "description": "开局120秒后获得 干草块*1",
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "imp": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "breed:rewards/givehayblock"
+    }
+}

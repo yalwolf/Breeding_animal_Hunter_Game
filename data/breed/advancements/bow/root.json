@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bow"
+        },
+        "title": "蓄势待发！",
+        "description": "获得一把弓",
+        "frame": "task",
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "get_bow" : {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bow"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "breed:rewards/givearrow"
+    }
+}

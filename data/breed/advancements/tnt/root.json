@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "title": "TNT？\"能干嘛呢\"？",
+        "description": "获得第一个TNT",
+        "frame": "task",
+        "background": "minecraft:textures/block/tnt_side.png",
+        "announce_to_chat": true,
+        "show_toast": true,
+        "hidden": true
+    },
+    "criteria": {
+        "getcake": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:tnt"
+                    }
+                ]
+            }
+        }
+    }
+}
