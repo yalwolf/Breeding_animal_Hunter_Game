@@ -1,6 +1,9 @@
 # Breeding_animal_Hunter_Game
 
+数据包[官网](https://website.dbhg.top/website/minecraft/datapack/Breeding_animal_Hunter_Game/)
+
 特供版：
+
 新增目录 [data\install] 目录内为 美化后的脚本文件 
 
 目录[data\breed]与[data\manhunt]下的脚本文件为核心脚本
