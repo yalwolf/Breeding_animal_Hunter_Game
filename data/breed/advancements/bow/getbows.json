@@ -1,4 +1,5 @@
 {
+    "parent": "breed:bow/root",
     "display": {
         "icon": {
             "item": "minecraft:bow"
@@ -6,9 +7,8 @@
         "title": "蓄势待发！",
         "description": "获得一把弓",
         "frame": "task",
-        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
-        "hidden": false,
-        "show_toast": true,
+        "hidden": true,
+        "show_toast": false,
         "announce_to_chat": false
     },
     "criteria": {
@@ -22,5 +22,8 @@
                 ]
             }
         }
+    },
+    "rewards": {
+        "function": "breed:rewards/givearrow"
     }
 }

@@ -21,7 +21,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:69},{id:\"minecraft:efficiency\",lvl:69},{id:\"minecraft:unbreaking\",lvl:69},{id:\"minecraft:fortune\",lvl:14}]}"
+                            "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:69},{id:\"minecraft:efficiency\",lvl:69},{id:\"minecraft:unbreaking\",lvl:69},{id:\"minecraft:fortune\",lvl:25}]}"
                         }
                     ]
                 },

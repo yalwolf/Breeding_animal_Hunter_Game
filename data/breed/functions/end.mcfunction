@@ -1,15 +1,18 @@
 gamerule doImmediateRespawn true
 gamemode spectator @a
 weather clear
+clear @a minecraft:compass
 effect clear @a
 
 team empty hunter
 team empty runner
-team remove runner
+team empty bystander
 team remove hunter
+team remove runner
+team remove bystander
 tag @a remove hunter
 tag @a remove runner
-clear @a
+tag @a remove bystander
 tag @a remove join_player
 
 scoreboard objectives remove playerhp

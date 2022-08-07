@@ -1,0 +1,1 @@
+advancement revoke @s only breed:bow/getbows
