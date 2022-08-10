@@ -130,8 +130,8 @@
                     "name": "minecraft:shield",
                     "functions": [
                         {
-                            "function": "minecraft:set_count",
-                            "count": 1
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:mending\",lvl:1},{id:\"minecraft:unbreaking\",lvl:1}]}"
                         }
                     ]
                 },
@@ -164,7 +164,11 @@
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 64
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 40,
+                                "min": 16
+                            }
                         }
                     ]
                 },
@@ -175,7 +179,11 @@
                     "functions": [
                         {
                             "function": "minecraft:set_count",
-                            "count": 64
+                            "count": {
+                                "type": "minecraft:uniform",
+                                "max": 64,
+                                "min": 20
+                            }
                         }
                     ]
                 },

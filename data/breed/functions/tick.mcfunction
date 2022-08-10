@@ -1,4 +1,7 @@
-execute as @a[team=runner,scores={playerhp=0..0}] run function breed:remove_runner
-# execute as @a[team=hunter,scores={killrunner=1..}] run function breed:hunterwin
-execute if score @p[team=hunter] killrunner = @p[tag=join_player] runner_player run function breed:hunterwin
-# execute as @a[team=runner,scores={playerhp=0..0}] at @a[team=hunter,scores={killrunner=1..,runner_player=1..}] run function breed:hunterwin
+# execute as @a[tag=join_player,scores={sethun_killrun=1..1}] run execute as @a[team=runner,scores={runner_1=1..1}] run scoreboard players operation @a[team=hunter] killrunner > @a[team=runner] runner_1
+execute as @a[tag=join_player,scores={sethun_killrun=0..0}] run execute as @a[team=runner,scores={runner_1=1..}] run scoreboard players operation @a[team=runner] runner_2 > @a[team=runner] runner_1
+execute as @a[tag=join_player,scores={sethun_killrun=0..0}] run scoreboard players operation @a[team=runner] test2 < @a[team=runner] runner_player
+execute as @a[tag=join_player,scores={setrunner_kill=1..1}] run execute as @a[team=runner,scores={runner_1=1..}] run gamemode spectator @s[team=runner]
+execute as @a[tag=join_player,scores={sethun_killrun=1..1}] run execute as @a[team=runner,scores={runner_1=1..}] run scoreboard players set @a[team=runner] runner_1 0
+execute as @a[scores={sethunter_win=1..1}] run execute if score @p[team=hunter] killrunner = @p[tag=join_player] runner_player run function breed:hunterwin
+execute as @a[scores={sethunter_win=1..1}] run execute as @a[tag=join_player,scores={sethun_killrun=0..0}] run execute if score @p[team=runner] runner_2 = @p[tag=join_player] runner_player run function breed:hunterwin

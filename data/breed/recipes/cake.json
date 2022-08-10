@@ -20,6 +20,7 @@
     }
   },
   "result": {
-    "item": "minecraft:air"
+    "item": "minecraft:cake",
+    "nbt":"{display:{Name:'[{\"text\":\"测试\",\"color\":\"dark_blue\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]'}}"
   }
 }

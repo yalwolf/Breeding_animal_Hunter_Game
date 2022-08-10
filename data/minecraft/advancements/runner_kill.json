@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "team":"hunter"
+        },
+        "killing_blow": {
+          "source_entity": {
+          "team":"hunter"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "install:test"
+  }
+}

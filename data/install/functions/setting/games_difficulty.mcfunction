@@ -1,0 +1,7 @@
+# 数据包队伍选择
+tellraw @a [{"text":"-----------游戏设置·游戏难度----------"}]
+tellraw @a [{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":" "},{"text":"【默认为简单】"}]
+tellraw @a [{"text":"【简单】","color":"green","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function install:setting/games_difficulty/easy"},"hoverEvent":{"action":"show_text","value":"设为0秒"}},{"text":"【普通】","color":"yellow","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function install:setting/games_difficulty/normal"},"hoverEvent":{"action":"show_text","value":"设为普通"}},{"text":"【困难】","color":"red","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function install:setting/games_difficulty/hard"},"hoverEvent":{"action":"show_text","value":"设为困难"}}]
+tellraw @a [{"text":""}]
+tellraw @a [{"text":"【返回】","color":"gold","bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"clickEvent":{"action":"run_command","value":"/function install:tab"}}]
+tellraw @a [{"text":"-------------------------------------------"}]

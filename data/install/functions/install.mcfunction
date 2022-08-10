@@ -26,12 +26,17 @@ schedule clear breed:startwarning
 execute as @a at @s run tag @s add join_player
 #计分板初始化
 scoreboard objectives add killrunner playerKillCount
-scoreboard objectives add killrunner_1 dummy
+scoreboard objectives add runner_1 deathCount
+scoreboard objectives add runner_2 deathCount
+scoreboard objectives add sethunter_win dummy
 scoreboard objectives add setrunner dummy
 scoreboard objectives add sethunter dummy
 scoreboard objectives add setbystander dummy
+scoreboard objectives add games_difficulty dummy
 scoreboard objectives add setplayer_z dummy
 scoreboard objectives add setplayer_one dummy
+scoreboard objectives add sethun_killrun dummy
+scoreboard objectives add setrunner_kill dummy
 scoreboard objectives add setplayer_no dummy "总人数"
 scoreboard objectives add hunter_player dummy "Hunter人数"
 scoreboard objectives add runner_player dummy "Runner人数"
@@ -44,14 +49,20 @@ scoreboard objectives add runner_player_hl health "Runner队友血量"
 scoreboard objectives remove playerhp
 scoreboard objectives remove waittime
 scoreboard objectives add waittime dummy
+#计分板初始化2
 scoreboard players set @a[tag=join_player] waittime 30
 execute as @a at @a run scoreboard players set @a setrunner 0
 execute as @a at @a run scoreboard players set @a sethunter 0
 execute as @a at @a run scoreboard players set @a setbystander 0
+execute as @a at @a run scoreboard players set @a sethunter_win 0
+execute as @a at @a run scoreboard players set @a runner_2 0
 execute as @a at @s run scoreboard players set @s[tag=join_player] setplayer_z 0
 execute as @a at @s run scoreboard players set @s[tag=join_player] setplayer_one 1
 execute as @s at @s run scoreboard players add @s[tag=join_player] setplayer_no 1
+execute as @s at @s run scoreboard players add @s[tag=join_player] setrunner_kill 1
+execute as @s at @s run scoreboard players add @s[tag=join_player] sethun_killrun 0
 execute as @a at @s run scoreboard players set @s[tag=join_player] set_bystander 0
+execute as @a at @s run scoreboard players set @a[tag=join_player] games_difficulty 1
 execute as @a at @s run scoreboard players set @a[tag=join_player] hunter_player 0
 execute as @a at @s run scoreboard players set @a[tag=join_player] runner_player 0
 execute as @a at @s run scoreboard players set @a[tag=join_player] bystander_player 0

@@ -3,6 +3,7 @@ gamemode spectator @a
 weather clear
 clear @a minecraft:compass
 effect clear @a
+difficulty peaceful
 
 team empty hunter
 team empty runner
@@ -19,13 +20,18 @@ scoreboard objectives remove playerhp
 scoreboard objectives remove waittime
 
 scoreboard objectives remove killrunner
-scoreboard objectives remove killrunner_1
+scoreboard objectives remove runner_1
+scoreboard objectives remove runner_2
+scoreboard objectives remove games_difficulty
+scoreboard objectives remove sethunter_win
 scoreboard objectives remove setrunner
 scoreboard objectives remove sethunter
 scoreboard objectives remove setbystander
 scoreboard objectives remove setplayer_z
 scoreboard objectives remove setplayer_no
 scoreboard objectives remove set_bystander
+scoreboard objectives remove setrunner_kill
+scoreboard objectives remove sethun_killrun
 scoreboard objectives remove hunter_player
 scoreboard objectives remove runner_player
 scoreboard objectives remove bystander_player
